@@ -1,0 +1,131 @@
+<html>
+    <head>
+        <title>Quero conhecer você</title>
+    </head>
+    <body bgcolor="silver"  align='center'>
+        <h1>Conhecendo a pessoa maravilhosa que você é ;)</h1>
+        <img src='gifs/duvidanopedaco.gif' width="200">
+        <h3>Responda o formulário abaixo:</h3>
+        <br></br>
+        <form>
+            <table border='2' cellspacing='3' cellpadding='10' width='550' align='center'>
+                <tr>
+                    <td> <label>Qual seu nome?</label></td>
+                    <td> <input type='text' placeholder='Seu Nome'/></td>
+                </tr>
+                <tr>
+                    <td> <label>Se você fosse sair do Brasil, para qual país iria?</label></td>
+                    <td> <input type='text'placeholder='Resposta'/></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Qual você prefere?</p>
+                    </td>
+                    <td>
+                        <input type='radio' id='Doce' name='comida' value='Doce'>
+                        <label for='Doce'>Doce</label>
+
+                        <input type='radio' id='salgado' name='comida' value='salgado'>
+                        <label for='salgado'>Salgado</label>
+                    </td>                   
+                </tr>
+                <tr>
+                    <td> <label>Qual sua comida preferida?</label></td>
+                    <td> <input type='text' placeholder='Sua comida preferida'/></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Nescau ou Toddy?</label>
+                    </td>
+                    <td>
+                        <select name='achocolatado'>
+                            <option value='0'>Selecione</option>
+                            <option value='1'>Nescau</option>
+                            <option value='2'>Toddy</option>
+                            <option value='3'>Tanto faz</option>
+                            <option value='4'>Existem outros achocolatados melhores</option>
+                            <option value='5'>Não gosto de leite com achocolatado</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label>Me fale seu estilo musical preferido, e de acordo com seu estilo, qual seu cantor ou banda preferido(os)?</label> </td>
+                    <td> <input type='text' placeholder='Estilo musical'>
+                         <br></br>
+                         <input type='text' placeholder='Cantor/Banda'>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan='2' align='center'>
+                        <label for='aniversário'>Qual sua data de nascimento?</label>
+                        <input type='date' id='aniversário' value-'' min='1960-01-01' max='2021-12-31'>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan='2' align='center'>
+                        <input type='checkbox' id='tecnico' value='tecnico'>
+                        <label for='tecnico'>Marque esta caixa se você quer rumar na área de T.I</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Série favorita? Qual?</p>
+                    </td>
+                    <td>
+                        <input type='radio' id='sim2' name='serie' value='sim'>
+                        <label for='sim2'>Sim</label>
+
+                        <input type='radio' id='nao2' name='serie' value='nao'>
+                        <label for='nao2'>Não</label>
+                        <br></br>
+                        <input type='text' placeholder='Digite o nome da série'>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Livro favorito? Qual?</p>
+                    </td>
+                    <td>
+                        <input type='radio' id='sim' name='gosta' value='sim'>
+                        <label for='sim'>Sim</label>
+
+                        <input type='radio' id='nao' name='gosta' valeu='nao'>
+                        <label for='nao'>Não</label>
+                        <br></br>
+                        <input type='text' placeholder='Digite o nome do livro'.>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <label>Voce se irrita fácil? O que faz com que você perca a paciência?</label>
+                    </td>
+                    <td>
+                        <textarea id='texto' name='texto' placeholder="Escreva o quanto quiser"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label>Me informe seu e-mail por favor.</label></td>
+                    <td> <input type='email' placeholder='Seu e-mail' required></td>
+                </tr>
+                <tr>
+                    <td colspan='2' align='center'>
+                        <input type='range' id='nivel' name='nivel' min='0' max='10'>
+                        <label for='nivel'>Em nível, o quanto você gostou deste formulário?</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for='image'>Anexe a melhor foto da sua galeria.</label>
+                    </td>
+                    <td>
+                        <input type='file' id='image' name='image' accept='image/png, image/jpeg'>
+                    </td>
+                </tr>
+            </table>
+            <fieldset>
+                <legend>Clique para enviar </legend>
+                <input type='submit' value='Enviar'>
+            </fieldset>
+        </form>
+    </body>
+</html>
