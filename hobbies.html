@@ -5,7 +5,7 @@
         <style>
 
             body {
-                background-color: #0e00ad
+                background-color: rgb(43, 17, 9)
                 
             }
 
@@ -19,10 +19,36 @@
                 font-family: 'Montserrat', sans-serif;
                 color: white;
             }
+            .topnav {
+                overflow: hidden;
+                background-color: #333;
+            }
+            .topnav a {
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                 font-size: 17px;
+            }
+
+            .topnav a:hover {
+                background-color: #ddd;
+                color: black;
+             }
+
+           .topnav a.active {
+                background-color: rgba(255, 60, 0);
+                color: white;
+            }   
         </style>
     
     </head>
     <body align='center'>
+        <div class='topnav'>
+            <a href='inicio.html'>HOME</a> 
+            <a class='active'  href='hobbies.html'>HOBBIES</a>     
+        </div>
         <h2>COISAS QUE GOSTO DE FAZER (Hobbies)</h2>
         <div>
             <table style='background-color: rgba(255, 60, 0)' align='center'>
