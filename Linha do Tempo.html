@@ -2,67 +2,311 @@
 
 <html>
     <head>
-        <title>Minha linha do tempo</title>
+        <title>My Homepage/Timeline</title>
+        <style>
+            body {
+                background-color: rgb(43, 17, 9);
+                background-image: url(imagens/orangefundo.png);
+            }
+            h1 {
+                font-family: 'Montserrat', sans-serif; 
+                background:rgb(235, 55, 0);
+                color: white;
+                text-align:center;
+            }
+            .topnav {
+                overflow: hidden;
+                background-color: #333;
+            }
+            .topnav a {
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                 font-size: 17px;
+            }
+
+            .topnav a:hover {
+                background-color: #ddd;
+                color: black;
+             }
+
+           .topnav a.active {
+                background-color: rgb(235, 55, 0);
+                color: white;
+           }
+            .linha1 {
+                Background: green;
+                width: 60px;
+                height: 5px;
+                margin-top: 150px;
+                margin-left: 200px;
+                border-radius:100%;
+            }
+            .year2003 {
+                background: green;
+                font-family: 'Montserrat', sans-serif;
+                width: 100px;
+                height: 50px;
+                margin-left: 90px;
+                margin-top: -27px;
+                font-size: 30px;
+                color:white;
+                border-radius: 5%;
+                text-align:center;
+            }
+            .zubu {
+                border:3px solid rgb(180, 42, 0);
+                margin-top: -100px;
+                margin-left: 270px;
+            }
+            .linha2 {
+                Background: green;
+                width: 60px;
+                height: 5px;
+                margin-top: -74px;
+                margin-left: 490px;
+                border-radius:100%;
+            }
+            .pingu {
+                border:3px solid rgb(180, 42, 0);
+                margin-top: -80px;
+                margin-left: 560px;
+            }
+            .linha3 {
+                Background: green;
+                width: 60px;
+                height: 5px;
+                margin-top: -74px;
+                margin-left: 720px;
+                border-radius:100%;
+            }
+            .sesamo {
+                border:3px solid rgb(180, 42, 0);
+                margin-top: -70px;
+                margin-left: 790px;
+            }
+            .linha4 {
+                Background: green;
+                width: 60px;
+                height: 5px;
+                margin-top: -74px;
+                margin-left: 1000px;
+                border-radius:100%;
+            }
+            .year2009 {
+                background: green;
+                font-family: 'Montserrat', sans-serif;
+                width: 100px;
+                height: 50px;
+                margin-left: 1070px;
+                margin-top: -27px;
+                font-size: 30px;
+                color:white;
+                border-radius: 5%;
+                text-align:center;
+            }
+            .linha5 {
+                Background: white;
+                width: 5px;
+                height: 100px;
+                margin-top: 30px;
+                margin-left: 1120px;
+                border-radius:100%;
+            } 
+            .year2010 {
+                background: blue;
+                font-family: 'Montserrat', sans-serif;
+                width: 100px;
+                height: 50px;
+                margin-left: 1070px;
+                margin-top: 25px;
+                font-size: 30px;
+                color:white;
+                border-radius: 5%;
+                text-align:center;
+            }   
+            .linha6 {
+                Background: blue;
+                width: 60px;
+                height: 5px;
+                margin-top: -28px;
+                margin-left: 1000px;
+                border-radius:100%;
+            }
+            .funnie {
+                margin-top: -80px;
+                margin-left: 850px;
+            }
+            .linha7 {
+                Background: blue;
+                width: 60px;
+                height: 5px;
+                margin-top: -75px;
+                margin-left: 750px;
+                border-radius:100%;
+            }
+            .panda {
+                border:3px solid rgb(180, 42, 0);
+                margin-top: -65px;
+                margin-left: 560px;
+            }
+            .linha8 {
+                Background: blue;
+                width: 60px;
+                height: 5px;
+                margin-top: -75px;
+                margin-left: 490px;
+                border-radius:100%;
+            }
+            .aventura {
+                border:3px solid rgb(180, 42, 0);
+                margin-top: -65px;
+                margin-left: 270px; 
+            }
+            .linha9 {
+                Background: blue;
+                width: 60px;
+                height: 5px;
+                margin-top: -75px;
+                margin-left: 200px;
+                border-radius:100%;
+            }
+            .year2016 {
+                background: blue;
+                font-family: 'Montserrat', sans-serif;
+                width: 100px;
+                height: 50px;
+                margin-left: 90px;
+                margin-top: -27px;
+                font-size: 30px;
+                color:white;
+                border-radius: 5%;
+                text-align:center;
+            }
+            .linha10 {
+                Background: white;
+                width: 5px;
+                height: 110px;
+                margin-top: 30px;
+                margin-left: 140px;
+                border-radius:100%;
+            }
+            .year2017 {
+                background: red;
+                font-family: 'Montserrat', sans-serif;
+                width: 100px;
+                height: 50px;
+                margin-left: 90px;
+                margin-top: 20px;
+                font-size: 30px;
+                color:white;
+                border-radius: 5%;
+                text-align:center;
+            }
+            .linha11 {
+                Background: red;
+                width: 60px;
+                height: 5px;
+                margin-top: -25px;
+                margin-left: 200px;
+                border-radius:100%;
+            }
+            .vikings {
+                border:3px solid rgb(180, 42, 0);
+                margin-top: -65px;
+                margin-left: 270px;
+
+            }
+            .linha12 {
+                Background: red;
+                width: 60px;
+                height: 5px;
+                margin-top: -56px;
+                margin-left: 490px;
+                border-radius:100%;
+            }
+            .twd {
+                border:3px solid rgb(180, 42, 0);
+                margin-top: -65px;
+                margin-left: 560px;
+            }
+            .linha13 {
+                Background: red;
+                width: 60px;
+                height: 5px;
+                margin-top: -50px;
+                margin-left: 780px;
+                border-radius:100%;
+            }
+            .stranger {
+                border:3px solid rgb(180, 42, 0);
+                margin-top: -80px;
+                margin-left: 850px;
+            }
+            .linha14 {
+                Background: red;
+                width: 60px;
+                height: 5px;
+                margin-top: -50px;
+                margin-left: 992px;
+                border-radius:100%;
+            }
+            .year2021 {
+                background: red;
+                font-family: 'Montserrat', sans-serif;
+                width: 100px;
+                height: 50px;
+                margin-left: 1070px;
+                margin-top: -30px;
+                font-size: 30px;
+                color:white;
+                border-radius: 5%;
+                text-align:center;
+            }
+
+        </style>      
     </head>
-
-    <body align='center'>
-
-        <h1> Minha linha do tempo</h1>
-
-        <h3>2003 - 2009</h3>
-        <img src='linhadotempo/Zubumafu.jpg' title='Zooboomafu'/>
-        <br/><br>
-        <img src='linhadotempo/pocoyo.jpg' title='Pocoyo' />
-        <br>
-        <img src='linhadotempo/gifpingu.gif' />
-        <audio controls>
-            <source src='audioslinhadotempo/noot.mp3'>
-        </audio>
-        <br>
-        <br>
-        <img src='linhadotempo/oscarrinhos.jpg' />
-        <br>
-        <img src='linhadotempo/teletubbies.jpg' />
-
-        <h3> 2010-2016</h3>
-        <img src='linhadotempo/dougfunnie.jpg' />
-        <audio controls>
-            <source src='audioslinhadotempo/dougfunnie.mp3'>
-        </audio>
-        <br>
-        <img src='linhadotempo/horadeaventura.jfif' width="300"/>
-        <br>
-        <img src='linhadotempo/osanjinhos.jpg' />
-        <br>
-        <img src='linhadotempo/vilasesamo.jpg' width="300" />
-        <br>
-        <img src='linhadotempo/apenasumshow.jfif'width='300' />
-        <br>
-        <img src='linhadotempo/caillou.jpg' width="300"/>
-        <br>
-        <img src='linhadotempo/KungFuPanda3.png' width="300" />
-
-        <h3> 2017-2021 </h3>
-
-    <img src='linhadotempo/gifivar.gif' width="500" />
-    <audio controls>
-        <source src='audioslinhadotempo/vikingsdialogo.mp3'>
-    </audio>
-    <br></br>
-    <img src='linhadotempo/giftwd.gif' />
-    <audio controls>
-        <source src='audioslinhadotempo/negantwd.mp3'>
-    </audio>
-    <br></br>
-    <img src='linhadotempo/gifrick.gif' width="350" />
-    <audio controls>
-        <source src='audioslinhadotempo/wubbalubba.mp3' >
-    </audio>
-    <br></br>
-    <img src='linhadotempo/gifstrangerthings.gif' />
-    <audio controls>
-        <source src='audioslinhadotempo/abertura.mp3'>
-    </audio>
+    <body>
+        <div class='topnav'>
+            <a href='inicio.html'>HOME</a> 
+            <a href='hobbies.html'>HOBBIES</a>  
+            <a href='trabalho.html'>MEU IDEAL</a>  
+            <a href='receitaspagina.html'>RECEITAS</a> 
+            <a class='active' href='Linha do Tempo.html'>TIMELINE</a>  
+        </div>
+        <h1>TIMELINE EM DESENHOS</h1>
+        
+      <div class='linha1'></div>
+      <div class='year2003'>2003</div>
+      <img class='zubu' width='200' src='linhadotempo/Zubumafu.jpg'>
+      <div class='linha2'></div>
+      <img class='pingu' width='140' src='linhadotempo/pingu.jpg'>
+      <div class='linha3'></div>
+      <img class='sesamo' width='200' src='linhadotempo/vilasesamo.jpg'>
+      <div class='linha4'></div>
+      <div class='year2009'>2009</div>
+      <div class='linha5'></div>
+      <div class='year2010'>2010</div>
+      <div class='linha6'></div>
+      <img class='funnie' width='120' src='linhadotempo/dougfunnie.png'>
+      <div class='linha7'></div>
+      <img class='panda' width='170' src='linhadotempo/KungFuPanda3.png'>
+      <div class='linha8'></div>
+      <img class='aventura' width='200' src='linhadotempo/horadeaventura.jfif'>
+      <div class='linha9'></div>
+      <div class='year2016'>2016</div>
+      <div class='linha10'></div>
+      <div class='year2017'>2017</div>
+      <div class='linha11'></div>
+      <img class='vikings' width='200' src='linhadotempo/gifivar.gif'>
+      <div class='linha12'></div>
+      <img class='twd' width='200' src='linhadotempo/giftwd.gif'>
+      <div class='linha13'></div>
+      <img class='stranger' width='120' src='linhadotempo/gifstrangerthings.gif'>
+      <div class='linha14'></div>
+      <div class='year2021'>2021</div>
 
     </body>
 </html>
